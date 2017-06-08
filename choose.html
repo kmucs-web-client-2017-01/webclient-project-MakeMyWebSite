@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>choose</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type=""text/javascript" src="./choose.js"></script>
+
+<style>
+body{ 
+background-image:url("night.jpg");
+background-repeat: no-repeat;	      
+background-size: cover;}
+
+.venus{
+position: absolute;
+left:48%;
+top: 3%;
+z-index:3;}
+
+.uranus{
+position: absolute;
+left: 35%;
+bottom:8%;
+z-index:3;
+}
+
+.neptune{
+position: absolute;
+right: 33%;
+bottom:10%;
+z-index:3;
+}
+
+.saturn{
+position: absolute;
+left:25%;
+bottom: 35%;
+z-index:3;}
+
+
+.jupiter{
+position:absolute;
+right:25%;
+bottom:38%;
+z-index:3;
+}
+
+.mars{
+position:absolute;
+right: 30%;
+top: 18%;
+z-index:3;
+}
+
+.mercury{
+position: absolute;
+top: 15%;
+left:30%;
+z-index:3;
+}
+
+a:hover{
+opacity:0.5;
+}
+
+div img{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 500px;
+height: 500px;
+margin-top: -250px; 
+margin-left: -250px;
+z-index:2;
+}
+
+p{
+
+position: absolute;
+top:80%;
+left: 5%;
+z-index:5;}
+
+
+</style>
+</head>
+
+<body>
+
+<audio autoplay loop>
+<source src="Fly Me To The Moon.mp3" type="audio/mpeg">
+</audio>
+
+<a id="venus" class="venus" href="./venus.html">
+<img src="venus.png"></a>
+
+<a class="uranus" href="./uranus.html">
+<img src="uranus.png"></a>
+
+<a class="neptune" href="./neptune.html">
+<img src="neptune.png"></a>
+
+<a class="saturn" href="./saturn.html">
+<img src="saturn.png"></a>
+
+<a class="jupiter" href="./jupiter.html">
+<img src="jupiter.png"></a>
+
+<a class="mars" href="./mars.html">
+<img src="mars.png"></a>
+
+<a class="mercury" href="./mercury.html">
+<img src="mercury.png"></a>
+
+<p><img src="rocket.png"></p>
+
+
+<div>
+<img src="sun.png">
+</div>
+
+</body>
+</html>

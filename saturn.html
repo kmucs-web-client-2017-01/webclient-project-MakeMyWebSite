@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type=""text/javascript" src="./planet.js"></script>
+<title>saturn</title>
+<style>
+
+body{ 
+background-image:url("deepnight.jpg");
+background-repeat: no-repeat;	      
+background-size: cover;}
+
+.v{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -250px; 
+margin-left: -250px; 
+width: 800px;
+height:auto;}
+
+.imgborder{
+width:600px;
+height:auto;
+border-radius:50%;
+opacity: 0.5;}
+
+.text1{
+font-family:'Palatino Linotype','Book Antiqua', Palatino, serif;
+color:gray;
+font-size: 50px;}
+
+.text2{
+display:none;
+color:white;
+font-size: 30px;}
+
+.removedefault{
+background-image:url("night.jpg");
+padding: 70px;}
+
+ul ul{list-style-type:none;}
+
+li{
+list-style-type:none;
+color:white;}
+
+.imgarray{
+width: auto;
+height:200px;
+display: none;
+padding:5px;}
+
+.divtitle{
+display:none;
+border-left:6px solid green;
+color:white;
+font-size:80px;}
+
+.spantitle{
+color:green;
+font-size: 70px;}
+
+video{
+border:1px solid white;
+width: 600px;
+height:auto;
+opacity:0.7;}
+
+table, th{
+text-align:center;
+border-collapse:collapse;
+font-size:20px;
+border: 1px solid white;
+color:white;
+}
+
+table, tr, td{
+font-size: 50px;
+border: 1px solid white;
+color:white;}
+
+a:hover{color: green;}
+
+a:link{text-decoration:none;}
+
+li :hover{
+opacity:0.9;}
+
+.details{
+border: 2px solid white;
+position:fixed;
+bottom:0%;
+right:0%;}
+
+.right-align{
+float:right;}
+
+.ulnav{
+position:fixed;
+display:none;
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:black;}
+
+.linav{
+font-size:25px;
+list-style-type: none;
+display:inline;
+font-family:arial,sans;
+text-decoration:none;}
+
+.lianav{
+list-style-type: none;
+display: inline-block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+
+</style>
+
+</head>
+
+<body>
+
+<ul class="ulnav"> 
+<li class="linav"><a class="lianav" href="#word">Word</a></li> 
+<li class="linav"><a class="lianav" href="#profile">Profile</a></li> 
+<li class="linav"><a class="lianav" href="#video&photos">Video&Photos</a></li> 
+<li class="linav"><a class="lianav" href="#home">Home</a></li> 
+</ul><br><br><br>
+
+
+<div id="home" class="divtitle">Sa<span class="spantitle">t</span>urn</div>
+<img class="v" src="saturnpng.png">
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+<ul class="removedefault">
+<li id="word" class="text1">Origin of a word</li><br>
+<li><img class="imgborder" src="lake.jpg"></li>
+<ul id="jq" class="text2">
+<li> Saturn was the leader and youngest of the first generation of Titans. 
+<br> He was usually depicetd with a harpe, scthe or a sickle.<br> The Roman counterpart of Kronos.</li>
+</ul> <br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<li id="profile" class="text1">Profile</li>
+<ul><li>
+<table>
+<tr>
+<th>diameter</th>
+<th>1 day in Saturn</th>
+<th>atmospheiric pressure</th>
+<th>mass</th>
+</tr>
+
+<tr>
+<td>120000km</td>
+<td>10hours 39minuites</td>
+<td>140kPa</td>
+<td>569*1024kg</td>
+</tr>
+
+</table>
+</li> <br><br><br>
+
+<li><img src="graph.gif"></li> <br><br><br>
+<li><img src="crater.jpg"></li>
+</ul>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<li id="video&photos" class="text1">Video&More</li>
+<ul>
+<li><video id="video" controls>
+<source src="saturn.mp4" type="video/mp4">
+</video>
+</li> <br>
+</li>
+<li>
+<img id="1" class="imgarray" src="saturn1.jpg">
+<img id="2" class="imgarray" src="saturn2.jpg">
+<img id="3" class="imgarray" src="saturn3.jpg">
+</li><br>
+
+
+</ul>
+</ul>
+
+
+
+</body>
+
+</html>

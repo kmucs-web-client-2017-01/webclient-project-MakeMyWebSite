@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>venus</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type=""text/javascript" src="./planet.js"></script>
+<style>
+
+body{ 
+background-image:url("deepnight.jpg");
+background-repeat: no-repeat;	      
+background-size: cover;}
+
+.v{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 500px;
+height: 500px;
+margin-top: -250px; 
+margin-left: -250px; 
+width: 550px;
+height:auto;}
+
+.imgborder{
+border-radius:50%;
+opacity: 0.5;}
+
+.text1{
+font-family:'Palatino Linotype','Book Antiqua', Palatino, serif;
+color:gray;
+font-size: 50px;}
+
+.text2{
+display:none;
+color:white;
+font-size: 30px;}
+
+.removedefault{
+background-image:url("night.jpg");
+padding: 70px;}
+
+ul ul{list-style-type:none;}
+
+li{
+list-style-type:none;
+color:white;}
+
+.imgarray{
+width: auto;
+height:200px;
+display: none;
+padding:5px;}
+
+.divtitle{
+display:none;
+border-left:6px solid green;
+color:white;
+font-size:80px;}
+
+.spantitle{
+color:green;
+font-size: 70px;}
+
+video{
+border:1px solid white;
+width: 600px;
+height:auto;
+opacity:0.7;}
+
+table, th{
+text-align:center;
+border-collapse:collapse;
+font-size:20px;
+border: 1px solid white;
+color:white;
+}
+
+table, tr, td{
+font-size: 50px;
+border: 1px solid white;
+color:white;}
+
+a:hover{color: green;}
+
+a:link{text-decoration:none;}
+
+li :hover{
+opacity:0.9;}
+
+.details{
+border: 2px solid white;
+position:fixed;
+bottom:0%;
+right:0%;}
+
+.right-align{
+float:right;}
+
+.ulnav{
+position:fixed;
+overflow:hidden;
+display:none;
+list-style-type: none;
+margin:0;
+padding:0;
+background-color:black;}
+
+.linav{
+list-style-type: none;
+display:inline;
+font-family:arial,sans;
+text-decoration:none;
+font-size:25px;}
+
+.lianav{
+list-style-type: none;
+display: inline-block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+
+#jq{
+display:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<ul class="ulnav"> 
+<li class="linav"><a class="lianav" href="#word">Word</a></li> 
+<li class="linav"><a class="lianav" href="#profile">Profile</a></li> 
+<li class="linav"><a class="lianav" href="#video&photos">Video&Photos</a></li> 
+<li class="linav"><a class="lianav" href="#home">Home</a></li> 
+</ul> 
+
+<br><br>
+
+<div id="home" class="divtitle">Ve<span class="spantitle">n</span>us</div>
+<img class="v" src="venuspng.png">
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
+
+<ul class="removedefault">
+<li id="word" class="text1">Origin of a word</li><br>
+<li><img class="imgborder" src="beauty.jpg"></li>
+<ul class="text2">
+<li id="jq"> Venus is the goddess in classic myths.<br> She is goddess of love, beauty, and natural productivity.<br> The Roman counterpart of Aphrodite.</li>
+</ul> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
+
+<li id="profile" class="text1">Profile</li>
+<ul><li>
+<table>
+<tr>
+<th>diameter</th>
+<th>1 day in Venus</th>
+<th>atmospheiric pressure</th>
+<th>mass</th>
+</tr>
+
+<tr>
+<td>12100km</td>
+<td>243 days</td>
+<td>9122kPa</td>
+<td>4.82*1024kg</td>
+</tr>
+
+</table>
+</li> <br><br><br>
+
+<li><img src="graph.gif"></li> <br><br><br>
+<li><img src="venuscycle.gif"></li>
+</ul>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<li id="video&photos" class="text1">Video&More</li>
+<ul>
+<li><video id="video" controls>
+<source src="venus.mp4" type="video/mp4">
+</video>
+</li> <br>
+
+</li>
+
+<li>
+<img id="1" class="imgarray" src="venus1.jpg">
+<img id="2" class="imgarray" src="venus2.jpg">
+<img id="3" class="imgarray" src="venus3.jpg">
+</li><br>
+
+<li>
+<img id="4" class="imgarray" src="venus4.jpg">
+<img id="5" class="imgarray" src="venus5.jpg">
+<img id="6" class="imgarray" src="venus6.jpg">
+</li>
+
+</ul>
+
+</ul>
+
+</body>
+
+</html>
